@@ -16,14 +16,14 @@ const Navbar = () => {
   ];
 
   return (
-    <nav>
+    <nav className="b-gray-300">
       <div className="md:hidden text-2xl" onClick={() => setOpen(!open)}>
         {
             open ? <IoClose /> 
             : <FaBars /> 
         }  
       </div>  
-      <ul className="md:flex gap-6">
+      <ul className={`md:flex gap-6 duration-1000 absolute md:static ${open ? 'top-10': '-top-60'} bg-white shadow border p-3 rounded-md`}>
         {
             routes.map((route) => <Link route={route} />)
         }

@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <DaisyNav />
+      {/* <DaisyNav /> */}
       <h1 className="text-3xl font-bold bg-rose-700 text-white text-center">
         In the name of Allah, The Entirely Merciful, The Especially Merciful.
       </h1>
