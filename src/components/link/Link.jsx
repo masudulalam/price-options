@@ -1,4 +1,4 @@
-const Link = ({ route}) => {
+const Link = ({ route }) => {
     return (
         <>
             <li key={route.id}>
