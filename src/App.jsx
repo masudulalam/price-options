@@ -1,6 +1,8 @@
 import DaisyNav from "./components/daisyNav/DaisyNav";
+import LineChart from "./components/lineChart/LineChart";
 import Navbar from "./components/navbar/Navbar";
 import PriceOptions from "./components/priceOptions/PriceOptions";
+import Phones from "./phones/phones";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
         In the name of Allah, The Entirely Merciful, The Especially Merciful.
       </h1>
       <PriceOptions />
+      <LineChart />
+      <Phones />
     </>
   );
 }
